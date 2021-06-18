@@ -129,3 +129,234 @@ a {
     text-decoration: none;
     color: #2D72C2;
 }
+
+#mission {
+    display: flex;
+    flex-direction: column;
+}
+
+#mission .top {
+    background-color: #294F6B;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+#mission .bottom {
+    background-color: #F4ECE2;
+    padding: 72px 128px;
+    padding-top: 48px;
+    text-align: center;
+}
+
+#actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
+
+#actions p {
+    font-weight: 300;
+}
+
+#actions #actionRow {
+    display: flex;
+    margin-top: 128px;
+}
+
+.actionIcon {
+    display: flex;
+    flex-direction: column;
+    margin: 0 48px;
+}
+
+.actionIcon img {
+    height: 128px;
+    margin-bottom: 32px;
+}
+
+.actionIcon button {
+    background-color: #FF9F41;
+    color: black;
+}
+
+#rehoming {
+    padding: 48px 0;
+    padding-top: 108px;
+}
+
+#rehoming .left button {
+    width: 50%;
+    margin-top: 48px;
+}
+
+#rehoming .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+}
+
+#rehoming .right img {
+    height: 450px;
+    padding-right: 32px;
+}
+
+.sectionHeader {
+    color: #2D72C2;
+    font-size: 36px;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+#merchandise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0;
+}
+
+#merchandise #productRow {
+    display: flex;
+    margin-bottom: 48px;
+}
+
+#merchandise .product img {
+    height: 200px;
+    margin-bottom: 24px;
+}
+
+#merchandise .product a {
+    text-align: center;
+    font-weight: 600;
+}
+
+#merchandise .product {
+    display: flex;
+    flex-direction: column;
+    margin: 0 32px;
+}
+
+#merchandise button {
+    width: 25%;
+}
+
+#resources {
+    padding: 64px 24px;
+    padding-top: 108px;
+}
+
+#resources .left img {
+    height: 450px;
+    padding-right: 32px;
+}
+
+#resources .right {
+    padding: 0 48px;
+}
+
+#resources .right button {
+    margin-top: 16px;
+}
+
+#successStories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F4ECE2;
+}
+
+#successStories #testimonial {
+    display: flex;
+    align-items: center;
+    padding: 48px 108px;
+}
+
+#successStories #testimonial .right {
+    display: flex;
+    flex-direction: column;
+    padding-left: 72px;
+}
+
+#successStories #testimonial .right h5  {
+    color: #2D72C2;
+}
+
+#successStories #pages{
+    margin-bottom: 48px;
+}
+
+#successStories #pages img {
+    width: 16px;
+    margin: 0 4px;
+}
+
+#subscribe {
+    padding: 48px 20%;
+    padding-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FBD148;
+}
+
+#subscribe .sectionHeader, #subscribe > p {
+    text-align: center;
+}
+
+#subscribe h3 {
+    margin: 0;
+}
+
+#subscribe #emailInput {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#subscribe #emailInput input {
+    border-radius: 8px;
+    border: 0;
+    box-shadow: 0 2px 2px 2px rgb(0, 0, 0, .2);
+    flex-grow: 1;
+    margin-right: 8px;
+    padding-left: 8px;
+}
+
+#subscribe #checkboxInput {
+    display: flex;
+    align-items: center;
+}
+
+#subscribe > span {
+    font-size: 8px;
+}
+
+#hero {
+    margin-bottom: 48px;
+}
+
+.infoContent  {
+    padding: 48px;
+}
+
+.infoContent .left, .infoContent .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 48px;
+}
+
+.infoContent img  {
+    height: 500px;
+    width: 500px;
+}
+
+.infoContent button  {
+    height: 50px;
+    width: 60%;
+}
